@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+header{
+    height: 80px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    font-size: 28px;
+    color: #45b56e;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+}
+header nav ul a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+header nav ul a:first-child{
+    color: #45b56e;
+}
+header nav ul a:hover{
+    color: #45b56e;
+}
+.login-signup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+font-size: 20px;
+    font-weight: bold;
+}
+.login-signup span{
+    color: #45b56e;
+}
+.login-signup button{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    background-color: #45b56e;
+    color: white;
+font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.hero{
+    margin: 40px 0px;
+    background: linear-gradient(0deg, #45b56e, #98ffba, #fff);
+}
+
+.hero .title-tab{
+    height: 40px;
+    width: 200px;
+    background-color: rgba(69, 181, 110, 0.192);
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: #45b56e;
+    margin: auto;
+}
+
+.hero .hero-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 65%;
+    margin: 20px auto;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.hero .hero-subtext{
+    width: 65%;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+}
+.hero button{
+  border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    background-color: #45b56e;
+    color: white;
+font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    display: block;
+    margin: 20px auto;
+}
+.hero .hero-image{
+    width: 80%;
+border-top: 15px solid #E4FCEC;
+border-left: 15px solid #E4FCEC;
+border-right: 15px solid #E4FCEC;
+
+    margin: 20px auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.hero .hero-image img{
+    width: 100%;
+}
