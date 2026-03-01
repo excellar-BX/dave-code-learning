@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 header{
     height: 80px;
@@ -12,7 +13,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
+} 
 header h1{
     font-size: 28px;
     color: #45b56e;
@@ -118,4 +119,40 @@ border-right: 15px solid #E4FCEC;
 }
 .hero .hero-image img{
     width: 100%;
+}
+
+
+
+
+
+.learning{
+    margin-top: 100px;
+    background-color: rgba(138, 43, 226, 0.1);
+    height: 100vh;
+}
+
+#box-container{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.634);
+    gap: 20px;
+    overflow: auto;
+}
+.box{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 255, 0, 0.634);
+}
+.new{
+    height: 100px;
+}
+
+@media (min-width: 768px){
+#box-container{
+    flex-direction: row;
+}
 }
